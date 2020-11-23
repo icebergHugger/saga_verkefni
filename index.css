@@ -1,0 +1,45 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+
+#wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.panels {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+#title_picture {
+  background: black;
+  height: 600px;
+  position: fixed;
+  top: 0;
+  z-index: -99;
+}
+
+#main_picture {
+  filter: blur(3px);
+}
+
+#overlap_image{
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  top: 100px;
+  margin-left: 900px;
+  filter: blur(1px);
+  z-index: 0;
+}
+
+#text_page {
+  margin-top: 600px;
+  background-color: blue;
+}
