@@ -6,6 +6,7 @@ html, body{
 
 #header {
   position: fixed;
+  overflow:visible;
   top: 0;
   width: 100%;
   padding: 20px;
@@ -14,7 +15,10 @@ html, body{
 }
 
 #logo {
-  float: left;
+  position: fixed;
+  margin-left: 1%;
+  margin-top: 1%;
+  z-index: 30;
 }
 
 #main {
@@ -54,7 +58,7 @@ html, body{
 
 #text_page {
   margin-top: 590px;
-  border-radius: 2%;
+  border-radius: 1%;
   background-color: #fbfbfb;
   width: 100%
 }
