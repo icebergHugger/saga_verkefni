@@ -1,7 +1,7 @@
 html, body{
   padding: 0;
   margin: 0;
-  background: black;
+  background: #cce7e8;
 }
 
 #header {
@@ -26,35 +26,37 @@ html, body{
 #wrapper {
   display: flex;
   justify-content: center;
-  background: white;
+  background: #cce7e8;
   position: absolute;
   height: 100%;
   width: 65%;
 }
 
 .panels {
-  width: 800px;
+  width: 65%;
   height: 100%;
   position: relative;
   z-index: 10;
 }
 
 #title_picture {
+  background-image: url("images/main_background.png");
+  background-size: 100%;
+  background-position: center;
   display: flex;
   justify-content: center;
   position: fixed;
-  top: 0;
+  height: 600px;
+  top: 40px;
   z-index: 0;
 }
 
-.main_img {
-  height: 100%;
-  width: auto;
-}
 
 #text_page {
-  margin-top: 600px;
-  background-color: blue;
+  margin-top: 590px;
+  border-radius: 2%;
+  background-color: #fbfbfb;
+  width: 100%
 }
 
 #footer {
