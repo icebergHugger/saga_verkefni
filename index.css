@@ -4,6 +4,38 @@ html, body{
   background: #cce7e8;
 }
 
+h1 {
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+
+#title {
+  margin: 80px 0 100px 0;
+  text-decoration: underline;
+  background-color: #e89696;
+  padding: 20px;
+  border-radius: 15px 15px;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #4c4c4c;
+}
+
+.paragraph {
+  line-height: 1.5em;
+  font-size: 1.2em;
+  margin: 0px 150px 40px 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
 #header {
   position: fixed;
   overflow:visible;
@@ -32,7 +64,6 @@ html, body{
   justify-content: center;
   background: #cce7e8;
   position: absolute;
-  height: 100%;
   width: 65%;
 }
 
@@ -60,18 +91,22 @@ html, body{
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
   margin-top: 590px;
-  border-radius: 1%;
+  border-radius: 10px;
   background-color: #fbfbfb;
   width: 100%
+}
+
+#heimilda_text {
+  margin: 100px 0 10px 0;
 }
 
 #citation_container {
   display: flex;
   align-items: center;
   justify-content:center;
-  margin: 60px;
+  margin: 0 60px 60px 60px;
   background-color: #e89696;
   border-radius: 10px;
   width: 70%;
@@ -97,7 +132,7 @@ html, body{
   font-family: "Baloo Bhai", helvetica, serif;
   color: #4c4c4c;
   background-color: #f5efe9;
-  border : 0.3em #4c4c4c solid;
+  border : 0.1em #4c4c4c solid;
   width : 95%;
   height: 95%;
   border-radius : 20px 20px;
